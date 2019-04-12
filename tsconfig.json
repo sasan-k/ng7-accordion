@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng7-accordion": [
+        "dist/ng7-accordion"
+      ],
+      "ng7-accordion/*": [
+        "dist/ng7-accordion/*"
+      ]
+    }
   }
 }

@@ -1,0 +1,9 @@
+ <div class="acc-section-header" style="height: 1rem;">
+     <a href="javascript:void(0)" (click)="onClick(ref, section)">{{accTitle}}</a>
+ </div>
+ <div class="acc-section-content"
+    [ngStyle]="{'max-height.px': maxHeight}">
+    <span #sectionRef>
+     <ng-content></ng-content>
+    </span>
+ </div>
